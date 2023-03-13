@@ -1,0 +1,405 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+
+  padding: 0;
+
+  border: 0;
+
+  font-size: 100%;
+
+  font: inherit;
+
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+
+  border-spacing: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+#page {
+  height: 100vh;
+  width: 100vw;
+  background: #fff;
+}
+
+#page > .header {
+  position: absolute;
+
+  width: 1140px;
+
+  height: 38px;
+
+  top: 58px;
+
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+#page > .header > .holadok {
+  position: absolute;
+  height: auto;
+  width: 90px;
+
+  top: 7px;
+
+  left: 0px;
+
+  font-weight: 700;
+
+  font-size: 18px;
+
+  line-height: 22px;
+
+  color: #101c45;
+}
+#page > .header > .holadok > i {
+  font-size: 16px;
+}
+#page > .header > .holadok > .holadok-text {
+  left: 39px;
+  display: inline-block;
+}
+
+#page > .header > .menu {
+  display: inline;
+
+  position: absolute;
+
+  top: 8px;
+
+  right: 295px;
+
+  width: 646px;
+
+  height: 20px;
+  font-weight: 400;
+
+  font-size: 16px;
+
+  line-height: 20px;
+  cursor: default;
+}
+
+#page > .header > .menu > a {
+  margin-right: 100px;
+
+  text-decoration: none;
+
+  color: black;
+  cursor: pointer;
+}
+
+#page > .header > .menu > a:first-child {
+  font-weight: 700;
+}
+
+#page > .header > .menu-utente > .login {
+  display: inline;
+
+  color: #101c45;
+
+  background: #fff;
+
+  border-style: none;
+
+  position: absolute;
+
+  right: 130px;
+
+  width: 81px;
+
+  height: 37px;
+
+  font-family: "DM Sans", sans-serif;
+
+  font-style: normal;
+
+  font-weight: 700;
+
+  font-size: 16px;
+
+  line-height: 21px;
+  cursor: pointer;
+}
+
+#page > .header > .menu-utente > .book-now {
+  display: inline;
+
+  color: #101c45;
+
+  background: #fff;
+
+  border-style: solid 3px #101c45;
+
+  position: absolute;
+
+  right: 0;
+
+  width: 120px;
+
+  height: 37px;
+
+  padding: 8px 20px;
+
+  font-family: "DM Sans", sans-serif;
+
+  font-style: normal;
+
+  font-weight: 700;
+
+  font-size: 16px;
+
+  line-height: 21px;
+  cursor: pointer;
+}
+
+#page > .main {
+  position: absolute;
+  top: 285px;
+
+  left: 50%;
+
+  transform: translateX(-50%);
+
+  width: 457px;
+
+  height: 391px;
+}
+
+#page > .main > .card {
+  border-style: solid 2px black;
+}
+
+#page > .main > .card > .title {
+  text-align: center;
+
+  font-size: 48px;
+
+  font-weight: 500;
+
+  font-family: "DM Sans", sans-serif;
+
+  color: #101c45;
+}
+
+#page > .main > .card > .text-card {
+  font-family: "DM Sans", sans-serif;
+
+  font-weight: 400;
+
+  font-size: 18px;
+
+  line-height: 30px;
+
+  text-align: center;
+
+  margin-top: 15px;
+}
+
+#page > .main > .card > .button-card {
+  position: absolute;
+
+  bottom: 0;
+
+  left: 50%;
+
+  transform: translateX(-50%);
+
+  width: 235px;
+
+  height: 60px;
+
+  padding: 15px, 35px, 15px, 35px;
+
+  background: #203271;
+
+  color: white;
+
+  font-family: "Source Sans Pro", sans-serif;
+
+  font-size: 18px;
+
+  line-height: 30px;
+
+  text-align: center;
+
+  margin-top: 15px;
+  border-style: none;
+  cursor: pointer;
+}
+
+.footer {
+  position: absolute;
+  left: 50%;
+  bottom: 32px;
+  transform: translateX(-50%);
+  width: 1221px;
+  height: 191px;
+  background: #203271;
+  padding: 40px;
+}
+.footer > .footer-card {
+  position: relative;
+  width: 359px;
+  height: 111px;
+  color: white;
+  font-family: "Dm Sans", sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  display: inline-block;
+  margin-right: 25px;
+}
+.footer > .footer-card:last-child {
+  margin-right: 0px;
+}
+
+.footer > .footer-card > div {
+  display: inline-block;
+  position: absolute;
+}
+
+.footer > .footer-card > div > h2 {
+  color: white;
+  font-family: "Dm Sans", sans-serif;
+  font-size: 18px;
+  line-height: 32px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.footer > .footer-card > i {
+  font-size: 30px;
+  margin-right: 10px;
+  display: inline-block;
+}
