@@ -210,21 +210,21 @@ body {
   line-height: 20px;
   cursor: default;
 }
-
-#page > .header > .menu > a {
+#page > .header > .menu > .link-list > .menu-element {
+  display: inline;
+}
+#page > .header > .menu > .link-list > .menu-element > .menu-link {
   margin-right: 100px;
-
   text-decoration: none;
-
   color: black;
   cursor: pointer;
 }
 
-#page > .header > .menu > a:first-child {
+#page > .header > .menu > .link-list > .menu-element > .menu-link:first-child {
   font-weight: 700;
 }
 
-#page > .header > .menu-utente > .login {
+#page > .header > .menu-user > .login {
   display: inline;
 
   color: #101c45;
@@ -253,7 +253,7 @@ body {
   cursor: pointer;
 }
 
-#page > .header > .menu-utente > .book-now {
+#page > .header > .menu-user > .book-now {
   display: inline;
 
   color: #101c45;
@@ -384,12 +384,12 @@ body {
   margin-right: 0px;
 }
 
-.footer > .footer-card > div {
+.footer > .footer-card > .footer-informations {
   display: inline-block;
   position: absolute;
 }
 
-.footer > .footer-card > div > h2 {
+.footer > .footer-card > .footer-informations > .footer-title {
   color: white;
   font-family: "Dm Sans", sans-serif;
   font-size: 18px;
@@ -398,7 +398,7 @@ body {
   margin-bottom: 10px;
 }
 
-.footer > .footer-card > i {
+.footer > .footer-card > .footer-icon {
   font-size: 30px;
   margin-right: 10px;
   display: inline-block;
